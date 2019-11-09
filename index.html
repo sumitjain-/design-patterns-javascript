@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS Design patterns</title>
+</head>
+<body>
+  <h1></h1>
+  <div id="app"></div>
+  <script>
+    function setHeading(txt) {
+      const heading = document.querySelector('h1');
+      if (heading) {
+        heading.innerText = txt || 'Design Patterns';
+      }
+    }
+  </script>
+  <!-- <script src="./singleton-1.js"></script> -->
+  <!-- <script src="./singleton-2.js"></script> -->
+  <!-- <script src="./abstract-factory-1.js"></script> -->
+  <!-- <script src="./abstract-factory-2.js"></script> -->
+  <script src="./adapter.js"></script>
+  <!-- <script src="./proxy.js"></script> -->
+</body>
+</html>
